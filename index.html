@@ -7,7 +7,7 @@
   <link rel="stylesheet" href="./style.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter&family=Open+Sans:wght@300;400;500&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
   <title>Portfólio Fabiana Balduína</title>
 </head>
 <body>
@@ -22,10 +22,10 @@
     <!-- Perfil / Apresentação e minibio -->
     <div id="perfil">
         <h1>Fabiana "FaBGirl" Balduína</h1>
-        <h3> Analyst Developer Front End </h3>
+        <h3 id="subtitle_principal"> Analyst Developer Front End </h3>
         <img id="img_perfil" src="https://avatars.githubusercontent.com/u/107576975?v=4" alt="imagem de mulher preta usando óculos"/> 
-        <p>
-            Fabiana “FaB*Girl” Balduína, dançarina autodidata, coreógrafa e pesquisadora de Breaking desde 2001. Formada em Gestão de Recursos Humanos e atualmente está cursando Licenciatura em Dança no Instituto Federal de Brasília. Foi a primeira brasileira a representar o Brasil no Mundial Battle of The Year/We Bgirlz na Alemanha (2008 e 2010). Em 2012, ela foi a primeira brasileira a participar do Red Bull BC One Cypher Brasília e em 2022 foi a primeira B-girl da américa do sul a ser jurada Redbull BC One World Final (final mundial) em Nova Iorque. Fabiana participou de festivais e cursos em diversos países, incluindo Alemanha, EUA, Portugal, Holanda, Eslováquia, Espanha, Colombia. Noruega e Argentina. Ela é fundadora do Brasil Style Bgirls, o primeiro grupo de Breaking formado somente por mulheres em Brasília e produz o Batom Battle, o maior festival de Breaking com foco em gênero do Brasil. Em 2020, fundou a primeira escola híbrida de dança Breaking do Brasil, a Drop Education. Fabiana também se dedica a produções culturais e atividades de capacitação em gestão cultural e dança, além de pesquisas em Economia Criativa e Danças Urbanas, Tecnologia, Inovação e Metodologias Híbridas de Ensino-Aprendizagem em dança Breaking. 
+        <p id="text-perfil">
+            Fabiana Balduína é uma dançarina autodidata e pesquisadora de Breaking com vasta experiência internacional. Ela foi a primeira brasileira a representar o Brasil no Mundial Battle of The Year/We Bgirlz na Alemanha e a primeira a participar brasileira a ser jurada da final mundial da Red Bull BC One World Final em NY/2022. Além de sua carreira na dança, Fabiana está cursando Tecnologia em Sistemas para Internet no Instituto Federal de Brasília e tem habilidades em HTML, CSS e Java Script. Ela é fundadora do Brasil Style Bgirls, o primeiro grupo de Breaking formado somente por mulheres em Brasília, produz o maior festival de Breaking com foco em gênero do Brasil e fundou a primeira escola híbrida de dança Breaking do Brasil, a Drop Education. Além disso, Fabiana se dedica a pesquisas em Economia Criativa e Danças Urbanas, Tecnologia, Inovação e Metodologias Híbridas de Ensino-Aprendizagem em dança Breaking, bem como produções culturais e atividades de capacitação em gestão cultural e dança.
         </p>
     </div>
 
@@ -34,18 +34,18 @@
     <nav id="formacao">
         <div>
             <h2>Formação</h2>
-            <h3>Graduada</h3>
-                <a href="https://www.df.senac.br/faculdade/institucional/" target="_blank">Faculdade Senac DF</a>
+            <h3 class="subtitulo">Graduada</h3>
+                <a class="links" href="https://www.df.senac.br/faculdade/institucional/" target="_blank">Faculdade Senac DF</a>
                 <p> Graduada em Gestão de Recursos Humanos pela Faculdade de Tecnologia e Inovação Senac-DF</p>
             </div>
 
-            <h3>Graduanda em Tecnologia em Sistemas para Internet</h3>
-            <a href="https://www.ifb.edu.br/" target="_blank"> Instituto Federal de Brasília</a>
+            <h3 class="subtitulo">Graduanda em Tecnologia em Sistemas para Internet</h3>
+            <a class="links" href="https://www.ifb.edu.br/" target="_blank"> Instituto Federal de Brasília</a>
             <p> Cursando o primeiro semestre do curso em Tecnologia em sistemas para Internet no instituto Federal de Brasília (IFB)</p>
         
         <div>
-            <h3>Ciclo Formativo Básica em Programação</h3>
-            <a href="https://www.pretalab.com/rede" target="_blank">Preta Lab</a>
+            <h3 class="subtitulo">Ciclo Formativo Básica em Programação</h3>
+            <a class="links" href="https://www.pretalab.com/rede" target="_blank">Preta Lab</a>
             <p> Plataforma que conecta mulheres negras que são ou gostariam de ser da tecnologia, por meio dos nossos ciclos formativos, rede de profissionais, mercado de trabalho, consultorias e estudos.</p>
 
         </div>
@@ -53,19 +53,25 @@
 
 <!-- Projetos em programação já desenvolvidos-->
 
-    <div>
-        <h2>Meus Projetos</h2>
-        <h3>Calculadora</h3>
-        <a href="https://fabianabalduina-projetofinal-pretalab.netlify.app/" target="_blank"> Link do Projeto</a>
-        <p> Projeto desenvolvido durante o Ciclo Formativo Básico, da Pretalab com a finalidade de aprimorar os conhecimentos em ferramentas de desenvolvimento Web - HTML e CSS.</p>
+    <nav id="projetos">
+        <div>
+            <h2>Meus Projetos</h2>
+            <h3 class="subtitulo">Calculadora</h3>
+            <a class="links" href="https://fabianabalduina-projetofinal-pretalab.netlify.app/" target="_blank"> Link do Projeto</a>
+            <p> Projeto desenvolvido durante o Ciclo Formativo Básico, da Pretalab com a finalidade de aprimorar os conhecimentos em ferramentas de desenvolvimento Web - HTML e CSS.</p>
 
-    </div>
+        </div>
+        
+    </nav>
 
  </div>
 </body>
 
 <!-- roda pé e pontos de contato-->
 <footer>
+    <footer> <!-- footer é o roda pé da minha página-->
+        &copy;Tríade Soluções Criativas 2023
+    </footer>
 
 </footer>
 </html>
